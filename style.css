@@ -2,7 +2,7 @@ body {
 		background-color: rgb(174, 197, 207);
 		color: #333;
 		font-family:"Georgia", "Snell Roundhand", "Helvetica Neue",Arial,Helvetica,sans-serif;
-		font-size: 16px;
+		font-size: 11px;
 	}
 	
 	.amp {
@@ -62,11 +62,38 @@ body {
 	}
 	.photo-album .polaroid {
 		position: absolute;
+	}	
+		.photo-album welcome {
+		color: #858687;
+		position: absolute;
+		z-index: 5;
+		top: 10%;
+		text-align: center;
+		width: 100%;
+		font-size:1300%
+		
+	}	
+		.photo-album name {
+		position: absolute;
+		z-index: 5;
+		color: #333;
+		top: 40%;
+		text-align: center;
+		width: 100%;
+		font-size:700%
 	}
 	.photo-album h1 {
 		position: absolute;
 		z-index: 5;
-		top: 150px;
+		top: 250px;
+		text-align: center;
+		width: 100%;
+		line-height: 1.9;
+	}
+	.photo-album h1 {
+		position: absolute;
+		z-index: 5;
+		top: 250px;
 		text-align: center;
 		width: 100%;
 		line-height: 1.9;
@@ -107,19 +134,12 @@ body {
 		width: 300px;
 		height: 300px;
 	}
-	.photo-album .img1 {
-		bottom: 10px;
-		right: 365px;
-		-webkit-transform: rotate(10deg);
-		-moz-transform: rotate(10deg);
-		transform: rotate(10deg);
-	}
-	.photo-album .img2 {
-		top: 50px;
-		right: 20px;
-		-webkit-transform: rotate(-4deg);
-		-moz-transform: rotate(-4deg);
-		transform: rotate(-4deg);
+		.photo-album .img16 {
+		top:500px;
+		left:200px;
+		-webkit-transform: rotate(-10deg);
+		-moz-transform: rotate(-10deg);
+		transform: rotate(-10deg);
 	}
 	.photo-album .img4 {
 		top: 10px;
@@ -157,8 +177,8 @@ body {
 		transform: rotate(-8deg);
 	}
 	.photo-album .img10 {
-		top: 0;
-		left: 20px;
+		top: 360px;
+		left: 200px;
 		-webkit-transform: rotate(8deg);
 		-moz-transform: rotate(8deg);
 		transform: rotate(8deg);
@@ -178,14 +198,6 @@ body {
 		transform: rotate(-8deg);
 	}
 
-	}
-	.photo-album .img16 {
-		bottom:200;
-		left:380px;
-		-webkit-transform: rotate(-10deg);
-		-moz-transform: rotate(-10deg);
-		transform: rotate(-10deg);
-	}
 	
 	a:hover,
 	a:focus {
