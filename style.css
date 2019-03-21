@@ -2,7 +2,7 @@ body {
 		background-color: rgb(174, 197, 207);
 		color: #333;
 		font-family:"Georgia", "Snell Roundhand", "Helvetica Neue",Arial,Helvetica,sans-serif;
-		font-size: 11px;
+		font-size: 9px;
 	}
 	
 	.amp {
@@ -11,6 +11,24 @@ body {
 		font-weight:normal;
 		border: none;
 	}
+
+	.subject {
+		font-size:270%
+		color: #dd594f;
+		}
+	.subject .headline1{
+		top:600px;
+		left:50px;
+	}
+	.photo-album {
+			}
+	.photo-album .img5 {
+		top: 360px;
+		right: 0;
+		-webkit-transform: rotate(1deg);
+		-moz-transform: rotate(1deg);
+		transform: rotate(1deg);
+	.....
 	
 	a.polaroid {
 		display: block;
@@ -21,7 +39,7 @@ body {
 		border: 1px solid #BFBFBF;
 		background-color: white;
 		z-index: 2;
-		font-size: 0.7em;
+		font-size: 1.3em;
 		-webkit-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
 		-moz-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
 		box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
@@ -64,14 +82,13 @@ body {
 		position: absolute;
 	}	
 		.photo-album welcome {
-		color: #858687;
+		color: #FFF;
 		position: absolute;
 		z-index: 5;
 		top: 10%;
 		text-align: center;
 		width: 100%;
 		font-size:1300%
-		
 	}	
 		.photo-album name {
 		position: absolute;
@@ -81,7 +98,8 @@ body {
 		text-align: center;
 		width: 100%;
 		font-size:700%
-	}
+		}	
+
 	.photo-album h1 {
 		position: absolute;
 		z-index: 5;
@@ -135,21 +153,21 @@ body {
 		height: 300px;
 	}
 		.photo-album .img16 {
-		top:500px;
-		left:200px;
+		top:360px;
+		left:210px;
 		-webkit-transform: rotate(-10deg);
 		-moz-transform: rotate(-10deg);
 		transform: rotate(-10deg);
 	}
 	.photo-album .img4 {
-		top: 10px;
+		top: 360px;
 		left: 495px;
 		-webkit-transform: rotate(-20deg);
 		-moz-transform: rotate(-20deg);
 		transform: rotate(-20deg);
 	}
 	.photo-album .img5 {
-		bottom: 0;
+		top: 360px;
 		right: 0;
 		-webkit-transform: rotate(1deg);
 		-moz-transform: rotate(1deg);
@@ -163,18 +181,18 @@ body {
 		transform: rotate(6deg);
 	}
 	.photo-album .img7 {
-		bottom:0;
-		left:400px;
-		-webkit-transform: rotate(-10deg);
-		-moz-transform: rotate(-10deg);
-		transform: rotate(-10deg);
+		top:370px;
+		left:380px;
+		-webkit-transform: rotate(10deg);
+		-moz-transform: rotate(10deg);
+		transform: rotate(10deg);
 	}
 	.photo-album .img9 {
-		bottom: 0;
+		top: 340px;
 		left: 0;
-		-webkit-transform: rotate(-8deg);
-		-moz-transform: rotate(-8deg);
-		transform: rotate(-8deg);
+		-webkit-transform: rotate(10deg);
+		-moz-transform: rotate(10deg);
+		transform: rotate(10deg);
 	}
 	.photo-album .img10 {
 		top: 360px;
@@ -184,23 +202,16 @@ body {
 		transform: rotate(8deg);
 	}
 	.photo-album .img11 {
-		top: 0;
-		right: 0;
-		-webkit-transform: rotate(-8deg);
-		-moz-transform: rotate(-8deg);
-		transform: rotate(-8deg);
+		top: 360px;
+		left: 0px;
+		-webkit-transform: rotate(-10deg);
+		-moz-transform: rotate(-10deg);
+		transform: rotate(-10deg);
 	}
-	.photo-album .img15 {
-		left:176px;
-		top:20px;
-		-webkit-transform: rotate(-8deg);
-		-moz-transform: rotate(-8deg);
-		transform: rotate(-8deg);
-	}
+
 
 	
 	a:hover,
 	a:focus {
 		z-index: 5;
 	}
-	
