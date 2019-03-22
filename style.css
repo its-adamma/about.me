@@ -28,7 +28,7 @@ body {
 		-webkit-transform: rotate(1deg);
 		-moz-transform: rotate(1deg);
 		transform: rotate(1deg);
-	.....
+	}
 	
 	a.polaroid {
 		display: block;
